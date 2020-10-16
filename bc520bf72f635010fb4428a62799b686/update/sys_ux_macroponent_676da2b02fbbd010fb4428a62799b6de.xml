@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "ckgccamjjiiwaaaaaaccddbhhccpwohiibbii",
+  "elementLabel" : "List",
+  "propertyValues" : {
+    "listTitle" : "Tikets",
+    "table" : "x_509970_tuleap_tuleap",
+    "query" : null,
+    "columns" : "number,state,sys_created_by,priority,description,application,group",
+    "limit" : "20",
+    "maxColumns" : "10",
+    "page" : "1",
+    "hideHeader" : false,
+    "hideTitle" : false,
+    "hideTitleRowCount" : false,
+    "hideRefreshButton" : false,
+    "hideLastRefreshedText" : false,
+    "hideLinks" : false,
+    "hideViewAll" : false,
+    "hideHighlightedValues" : false,
+    "hideCellFilter" : true,
+    "hideCheckboxHover" : true,
+    "hideColumnFiltering" : true,
+    "hideColumnGrouping" : true,
+    "hideColumnSorting" : false,
+    "hideFilterPanel" : false,
+    "hideFirstPage" : false,
+    "hideLastPage" : false,
+    "hideLimitSelector" : false,
+    "hideMenuButton" : true,
+    "hideMultiEdit" : false,
+    "hideDeclarativeActions" : false,
+    "hideNextPage" : false,
+    "hidePages" : false,
+    "hidePagination" : true,
+    "hidePanel" : true,
+    "hidePanelAdvanced" : false,
+    "hidePanelConditionDelete" : false,
+    "hidePanelFooter" : false,
+    "hidePanelRestore" : false,
+    "hidePreviousPage" : false,
+    "hideQuickEdit" : true,
+    "hideRange" : false,
+    "hideRowCount" : false,
+    "hideRowSelector" : false,
+    "hideSelectAll" : true,
+    "hideEmptyStateImage" : false,
+    "hideDBViews" : false,
+    "hideUnnecessaryRowSelectors" : true
+  },
+  "slot" : "ckg2am98x00033b72tjjjdvzl",
+  "definition" : {
+    "id" : "2b1c080881e05dc63b917044290b233f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null
+} ]</composition>
+        <data/>
+        <events/>
+        <extends display_value="Landing Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <interactions/>
+        <layout>{
+  "default" : {
+    "type" : "rowColumn",
+    "root" : {"type":"row","columns":[{"type":"column","slotName":"ckg2am98x00033b72tjjjdvzl","size":"12","rows":[],"id":"ckg2am98x00053b72q9kc2c2r"}],"id":"ckg2am98x00043b72p3tdep8e"},
+    "items" : null,
+    "rules" : null,
+    "styles" : null
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <props/>
+        <root_component/>
+        <root_component_config/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-09 13:38:14</sys_created_on>
+        <sys_id>676da2b02fbbd010fb4428a62799b6de</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_ux_macroponent_676da2b02fbbd010fb4428a62799b6de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-14 09:31:32</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

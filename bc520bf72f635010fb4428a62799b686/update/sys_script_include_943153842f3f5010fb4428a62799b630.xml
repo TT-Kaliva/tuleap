@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_509970_tuleap.GetDelais</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetDelais</name>
+        <script><![CDATA[var GetDelais = Class.create();
+GetDelais.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getDelaiPrisEnCharge: function() {
+        var delais = new GlideRecord("x_509970_tuleap_configuration_delais");
+        delais.addQuery('severite', '=', this.getParameter('sysparm_priority'));
+        delais.addQuery('application_name', '=', this.getParameter('sysparm_application'));
+        delais.setLimit(1);
+        delais.query();
+        if (delais.next()) {
+
+            return delais.delai_pris_en_charge;
+        }
+
+    },
+    getDelaiResolution: function() {
+        var delais = new GlideRecord("x_509970_tuleap_configuration_delais");
+        delais.addQuery('severite', '=', this.getParameter('sysparm_priority'));
+        delais.addQuery('application_name', '=', this.getParameter('sysparm_application'));
+        delais.setLimit(1);
+        delais.query();
+        if (delais.next()) {
+            return delais.delai_resolution;
+        }
+
+    },
+    type: 'GetDelais'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 08:29:46</sys_created_on>
+        <sys_id>943153842f3f5010fb4428a62799b630</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>GetDelais</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_script_include_943153842f3f5010fb4428a62799b630</sys_update_name>
+        <sys_updated_by>thomasb</sys_updated_by>
+        <sys_updated_on>2020-10-16 09:25:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

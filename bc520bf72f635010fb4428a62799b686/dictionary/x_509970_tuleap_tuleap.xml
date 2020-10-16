@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Tuleap" max_length="40" name="x_509970_tuleap_tuleap" sizeclass="61" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Application" mandatory="true" max_length="120" name="application" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PATR-PROMETHEE" sequence="0" value="patr-promethee"/>
+                <element inactive_on_update="false" label="RESS-TEMPO" sequence="1" value="ress-tempo"/>
+                <element inactive_on_update="false" label="OPPER-MOBILITE" sequence="2" value="opper-mobilite"/>
+            </choice>
+        </element>
+        <element label="created user email" max_length="100" name="created_user_email" read_only="true" type="string"/>
+        <element label="Date de resolution" max_length="40" name="date_de_resolution" type="glide_date"/>
+        <element label="Date objectif de resolution" max_length="40" name="date_objectif_de_r_solution" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date prise en charge (old)" max_length="40" name="date_prise_en_charge" type="glide_date_time"/>
+        <element display="true" label="Date prise en charge" max_length="40" name="date_prise_en_charge_auto" type="glide_date"/>
+        <element label="Date objectif prise en charge" max_length="40" name="expected_start_new" read_only="true" type="glide_date"/>
+        <element label="Groupe d'affectation" max_length="32" name="group" read_only="true" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="KO" label="Ind Qual prise en charge" max_length="40" name="ind_qual_prise_en_charge" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="KO" label="Ind Qual resolution" max_length="40" name="ind_qual_resolution" read_only="true" type="string"/>
+        <element label="Pdf" max_length="5000" name="pdf_link" read_only="true" type="url"/>
+    </element>
+</database>

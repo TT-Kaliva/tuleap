@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ind_qual_resolution" table="x_509970_tuleap_tuleap" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ind_qual_resolution</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>OK</label>
+            <language>en</language>
+            <name>x_509970_tuleap_tuleap</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 12:55:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10d60fbb2f635010fb4428a62799b643</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-07 10:13:54</sys_updated_on>
+            <value>ok</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ind_qual_resolution</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>KO</label>
+            <language>en</language>
+            <name>x_509970_tuleap_tuleap</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 12:55:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cd60fbb2f635010fb4428a62799b644</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-07 10:13:54</sys_updated_on>
+            <value>ko</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ind_qual_resolution</element>
+            <name>x_509970_tuleap_tuleap</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 12:55:13</sys_created_on>
+            <sys_id>58d60fbb2f635010fb4428a62799b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ind_qual_resolution</sys_name>
+            <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+            <sys_update_name>sys_choice_x_509970_tuleap_tuleap_ind_qual_resolution</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 12:55:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

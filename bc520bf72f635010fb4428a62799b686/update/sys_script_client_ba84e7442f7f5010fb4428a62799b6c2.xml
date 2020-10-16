@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Date pris en charge</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var rightNow = new Date();
+	var year = rightNow.getFullYear();
+	var month = rightNow.getMonth();
+	var day = rightNow.getDate();
+	if (newValue == '0'){
+	
+		g_form.setValue('date_prise_en_charge_auto', null);
+		g_form.setValue('ind_qual_prise_en_charge', 'KO');
+		g_form.setValue('due_date', null);
+		
+	}
+	if (newValue == '1'){
+	
+		var datePrisEnCharge = year + '-' + (month + 1) + '-' + day;
+		g_form.setValue('date_prise_en_charge_auto', datePrisEnCharge);
+		g_form.setValue('ind_qual_prise_en_charge', 'OK');
+		g_form.setValue('due_date', null);
+	}
+	if (newValue == '2'){
+			var dateResolution = year + '-' + (month + 1) + '-' + day ;
+		g_form.setValue('date_de_resolution', dateResolution);
+		g_form.setValue('ind_qual_resolution', 'KO');
+		
+		
+		 var getGroup = new GlideAjax('GetGroup');
+		 getGroup.addParam('sysparm_name','getGroupRecord');
+		
+		
+		getGroup.addParam('sysparm_groupName', 'Support validation');
+		 getGroup.getXML(getResponse);
+	
+	   // When the response is back from the server
+    function getResponse(response){
+        var gr = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('group', gr);
+	}
+	}
+	if (newValue == '3'){
+		//	var dateValidation = year + '-' + (month + 1) + '-' + day ;
+		//g_form.setValue('date_de_resolution', dateValidation);
+		g_form.setValue('ind_qual_resolution', 'OK');
+	}
+	if (newValue == '4'){
+		g_form.setValue('date_de_resolution', null);
+		g_form.setValue('date_prise_en_charge_auto', null);
+		g_form.setValue('ind_qual_resolution', 'KO');
+		g_form.setValue('ind_qual_resolution', 'KO');
+	}
+   //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 09:49:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba84e7442f7f5010fb4428a62799b6c2</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Date pris en charge</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_script_client_ba84e7442f7f5010fb4428a62799b6c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-16 12:55:36</sys_updated_on>
+        <table>x_509970_tuleap_tuleap</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

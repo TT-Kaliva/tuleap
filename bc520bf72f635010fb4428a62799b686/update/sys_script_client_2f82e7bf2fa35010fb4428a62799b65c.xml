@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>priority</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>calcul delai severite</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var application = g_form.getValue('application');
+    if (application != null && application != undefined && application != '') {
+        var rightNow = new Date();
+        var year = rightNow.getFullYear();
+        var month = rightNow.getMonth();
+        var day = rightNow.getDate();
+
+        var getDelais = new GlideAjax('GetDelais');
+        getDelais.addParam('sysparm_name', 'getDelaiPrisEnCharge');
+        getDelais.addParam('sysparm_priority', newValue);
+        getDelais.addParam('sysparm_application', application);
+
+        // Send the request to the server
+        getDelais.getXML(getResponse);
+
+        // When the response is back from the server
+        function getResponse(response) {
+            var delai = response.responseXML.documentElement.getAttribute("answer");
+            var expectedDate = year + '-' + (month + 1) + '-' + (day + parseInt(delai));
+            g_form.setValue('expected_start_new', expectedDate);
+
+        }
+
+
+
+        var getDelaisResolu = new GlideAjax('GetDelais');
+        getDelaisResolu.addParam('sysparm_name', 'getDelaiResolution');
+        getDelaisResolu.addParam('sysparm_priority', newValue);
+        getDelaisResolu.addParam('sysparm_application', application);
+
+        // Send the request to the server
+        getDelaisResolu.getXML(getResponseResolu);
+
+        // When the response is back from the server
+        function getResponseResolu(response) {
+            var delai = response.responseXML.documentElement.getAttribute("answer");
+            var objectifResolution = year + '-' + (month + 1) + '-' + (day + parseInt(delai));
+            g_form.setValue('date_objectif_de_r_solution', objectifResolution);
+
+        }
+
+    }
+
+    var getGroup = new GlideAjax('GetGroup');
+    getGroup.addParam('sysparm_name', 'getGroupRecord');
+    if (newValue == '3') {
+        getGroup.addParam('sysparm_groupName', 'Support niveau 2');
+    } else {
+        getGroup.addParam('sysparm_groupName', 'Support niveau 1');
+    }
+    // Send the request to the server
+    getGroup.getXML(getResponse);
+
+    // When the response is back from the server
+    function getResponse(response) {
+        var gr = response.responseXML.documentElement.getAttribute("answer");
+        g_form.setValue('group', gr);
+    }
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 14:58:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f82e7bf2fa35010fb4428a62799b65c</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>calcul delai severite</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_script_client_2f82e7bf2fa35010fb4428a62799b65c</sys_update_name>
+        <sys_updated_by>thomasb</sys_updated_by>
+        <sys_updated_on>2020-10-16 09:31:22</sys_updated_on>
+        <table>x_509970_tuleap_tuleap</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

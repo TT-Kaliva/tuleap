@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Tuleap">a8210ec32ff35810fb4428a62799b64f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_509970_tuleap_tuleap</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-16 11:54:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ba8892c32f375810fb4428a62799b686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_app_module_ba8892c32f375810fb4428a62799b686</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-16 11:54:40</sys_updated_on>
+        <timeline_page/>
+        <title>All</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tuleap">bc520bf72f635010fb4428a62799b686</application>
+        <file_path/>
+        <instance_id>e0b10cb5db7418105749cac5059619dd</instance_id>
+        <instance_name>dev103592</instance_name>
+        <name>sys_app_module_ba8892c32f375810fb4428a62799b686</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Tuleap">a8210ec32ff35810fb4428a62799b64f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_509970_tuleap_tuleap</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-16 11:54:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ba8892c32f375810fb4428a62799b686</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package><sys_policy/><sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope><sys_update_name>sys_app_module_ba8892c32f375810fb4428a62799b686</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-16 11:54:40</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1918493487</payload_hash>
+        <record_name>All</record_name>
+        <reverted_from/>
+        <source>30520bf72f635010fb4428a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-16 11:54:40</sys_created_on>
+        <sys_id>62d8da832f375810fb4428a62799b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175314310e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-16 11:54:40</sys_updated_on>
+        <type>Module</type>
+        <update_guid>aad8da838d37581008642d1041f7bcfd</update_guid>
+        <update_guid_history>aad8da838d37581008642d1041f7bcfd:1918493487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All">f73ad6072f375810fb4428a62799b6da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-16 12:00:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>172b56ab60dc4f7d852dad7b0dcb99c9</sys_id>
+        <sys_metadata>ba8892c32f375810fb4428a62799b686</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_scope_delete display_value="">08a78d68d919492e809709aca31eb184</sys_scope_delete>
+        <sys_update_name>sys_app_module_ba8892c32f375810fb4428a62799b686</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ba8892c32f375810fb4428a62799b686">62d8da832f375810fb4428a62799b6fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-16 12:00:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

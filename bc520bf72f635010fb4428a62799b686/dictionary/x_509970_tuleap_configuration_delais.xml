@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Configuration delais" max_length="40" name="x_509970_tuleap_configuration_delais" sizeclass="9" type="collection">
+        <element choice="3" label="Application name" max_length="40" name="application_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="OPPER-MOBILITE" value="opper-mobilite"/>
+                <element inactive_on_update="false" label="PATR-PROMETHEE" value="patr-promethee"/>
+                <element inactive_on_update="false" label="RESS-TEMPO" value="ress-tempo"/>
+            </choice>
+        </element>
+        <element label="Delai pris en charge" max_length="40" name="delai_pris_en_charge" type="integer"/>
+        <element label="Delai resolution" max_length="40" name="delai_resolution" type="integer"/>
+        <element choice="3" label="Severite" max_length="40" name="severite" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critique" value="3"/>
+                <element inactive_on_update="false" label="Majeur" value="2"/>
+                <element inactive_on_update="false" label="Mineur" value="1"/>
+            </choice>
+        </element>
+    </element>
+</database>

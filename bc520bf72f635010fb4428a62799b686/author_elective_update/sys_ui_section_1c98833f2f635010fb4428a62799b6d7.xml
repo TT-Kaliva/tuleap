@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="1c98833f2f635010fb4428a62799b6d7" sys_domain="global" table="x_509970_tuleap_tuleap" version="3" view="test">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>d898833f2f635010fb4428a62799b6e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>application</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>5098833f2f635010fb4428a62799b6e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group_list</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>e498833f2f635010fb4428a62799b6e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expected_start</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>6c98833f2f635010fb4428a62799b6e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_objectif_de_r_solution</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>e098833f2f635010fb4428a62799b6e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ind_qual_prise_en_charge</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>6898833f2f635010fb4428a62799b6e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>ec98833f2f635010fb4428a62799b6e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>6498833f2f635010fb4428a62799b6e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>e898833f2f635010fb4428a62799b6e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_prise_en_charge</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>6098833f2f635010fb4428a62799b6e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>e498833f2f635010fb4428a62799b6e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ind_qual_resolution</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>6c98833f2f635010fb4428a62799b6e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>e098833f2f635010fb4428a62799b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>6898833f2f635010fb4428a62799b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_id>ec98833f2f635010fb4428a62799b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_509970_tuleap_tuleap</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c98833f2f635010fb4428a62799b6d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_509970_tuleap_tuleap</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+            <sys_update_name>sys_ui_section_1c98833f2f635010fb4428a62799b6d7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="test" name="test">d498833f2f635010fb4428a62799b63e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tuleap">bc520bf72f635010fb4428a62799b686</application>
+        <file_path/>
+        <instance_id>e0b10cb5db7418105749cac5059619dd</instance_id>
+        <instance_name>dev103592</instance_name>
+        <name>sys_ui_section_1c98833f2f635010fb4428a62799b6d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="1c98833f2f635010fb4428a62799b6d7" sys_domain="global" table="x_509970_tuleap_tuleap" version="3" view="test"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>d898833f2f635010fb4428a62799b6e0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>application</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>5098833f2f635010fb4428a62799b6e1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>group_list</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>e498833f2f635010fb4428a62799b6e1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>expected_start</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>6c98833f2f635010fb4428a62799b6e1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_objectif_de_r_solution</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>e098833f2f635010fb4428a62799b6e2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ind_qual_prise_en_charge</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>6898833f2f635010fb4428a62799b6e2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>ec98833f2f635010fb4428a62799b6e2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>6498833f2f635010fb4428a62799b6e3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>e898833f2f635010fb4428a62799b6e3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_prise_en_charge</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>6098833f2f635010fb4428a62799b6e4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>due_date</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>e498833f2f635010fb4428a62799b6e4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ind_qual_resolution</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>6c98833f2f635010fb4428a62799b6e4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>e098833f2f635010fb4428a62799b6e5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>6898833f2f635010fb4428a62799b6e5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_id>ec98833f2f635010fb4428a62799b6e5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="d498833f2f635010fb4428a62799b63e">1c98833f2f635010fb4428a62799b6d7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_509970_tuleap_tuleap</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-06 13:02:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1c98833f2f635010fb4428a62799b6d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_509970_tuleap_tuleap</sys_name><sys_overrides/><sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package><sys_policy/><sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope><sys_update_name>sys_ui_section_1c98833f2f635010fb4428a62799b6d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-06 13:02:53</sys_updated_on><sys_user/><title>false</title><view display_value="test" name="test">d498833f2f635010fb4428a62799b63e</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1424123484</payload_hash>
+        <record_name>Tuleap</record_name>
+        <reverted_from/>
+        <source>30520bf72f635010fb4428a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:02:53</sys_created_on>
+        <sys_id>e498833f2f635010fb4428a62799b6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174fe01ed4e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:02:53</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>6098833f31635010a59ebcff74f06ae8</update_guid>
+        <update_guid_history>6098833f31635010a59ebcff74f06ae8:-1424123484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 13:09:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>827cb2ba1ebe45848e3deb0f11d7a8c9</sys_id>
+        <sys_metadata>1c98833f2f635010fb4428a62799b6d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_509970_tuleap_tuleap</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_parent display_value="Tuleap">0c23833b2f635010fb4428a62799b69b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_scope_delete display_value="">08a78d68d919492e809709aca31eb184</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1c98833f2f635010fb4428a62799b6d7</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1c98833f2f635010fb4428a62799b6d7">e498833f2f635010fb4428a62799b6e8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 13:09:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

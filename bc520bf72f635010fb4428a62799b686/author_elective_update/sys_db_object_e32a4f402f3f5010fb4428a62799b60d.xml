@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Configuration delais</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_509970_tuleap_configuration_delais</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 07:50:53</sys_created_on>
+        <sys_id>e32a4f402f3f5010fb4428a62799b60d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Configuration delais</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_db_object_e32a4f402f3f5010fb4428a62799b60d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 08:05:09</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_509970_tuleap.configuration_delais_user" name="x_509970_tuleap.configuration_delais_user">b7bacf402f3f5010fb4428a62799b60d</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tuleap">bc520bf72f635010fb4428a62799b686</application>
+        <file_path/>
+        <instance_id>e0b10cb5db7418105749cac5059619dd</instance_id>
+        <instance_name>dev103592</instance_name>
+        <name>sys_db_object_e32a4f402f3f5010fb4428a62799b60d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>true</configuration_access><create_access>true</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Configuration delais</label><live_feed_enabled>false</live_feed_enabled><name>x_509970_tuleap_configuration_delais</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-07 07:50:53</sys_created_on><sys_id>e32a4f402f3f5010fb4428a62799b60d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Configuration delais</sys_name><sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package><sys_policy/><sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope><sys_update_name>sys_db_object_e32a4f402f3f5010fb4428a62799b60d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-07 08:05:09</sys_updated_on><update_access>true</update_access><user_role display_value="x_509970_tuleap.configuration_delais_user" name="x_509970_tuleap.configuration_delais_user">b7bacf402f3f5010fb4428a62799b60d</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-1358920411</payload_hash>
+        <record_name>Configuration delais</record_name>
+        <reverted_from/>
+        <source>30520bf72f635010fb4428a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 08:05:10</sys_created_on>
+        <sys_id>490ecb042f3f5010fb4428a62799b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1750217b78e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 08:05:10</sys_updated_on>
+        <type>Table</type>
+        <update_guid>c10ecb048b3f50106944e09e518bfdb0</update_guid>
+        <update_guid_history>c10ecb048b3f50106944e09e518bfdb0:-1358920411,8cfd8704cc3f50108d2e739106b91445:-1928727971,cccac780fe3f50104fe681e053287311:1804812581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 08:06:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>6eb962bd6ac34444b860b38a155eb590</sys_id>
+        <sys_metadata>e32a4f402f3f5010fb4428a62799b60d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuration delais</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_scope_delete display_value="">08a78d68d919492e809709aca31eb184</sys_scope_delete>
+        <sys_update_name>sys_db_object_e32a4f402f3f5010fb4428a62799b60d</sys_update_name>
+        <sys_update_version display_value="sys_db_object_e32a4f402f3f5010fb4428a62799b60d">490ecb042f3f5010fb4428a62799b6b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 08:06:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

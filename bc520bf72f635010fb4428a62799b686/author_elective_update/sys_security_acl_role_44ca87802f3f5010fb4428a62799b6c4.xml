@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 07:50:53</sys_created_on>
+        <sys_id>44ca87802f3f5010fb4428a62799b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_509970_tuleap_configuration_delais.x_509970_tuleap.configuration_delais_user</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_security_acl display_value="x_509970_tuleap_configuration_delais">37ba87802f3f5010fb4428a62799b6c1</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_44ca87802f3f5010fb4428a62799b6c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 07:50:53</sys_updated_on>
+        <sys_user_role display_value="x_509970_tuleap.configuration_delais_user" name="x_509970_tuleap.configuration_delais_user">b7bacf402f3f5010fb4428a62799b60d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tuleap">bc520bf72f635010fb4428a62799b686</application>
+        <file_path/>
+        <instance_id>e0b10cb5db7418105749cac5059619dd</instance_id>
+        <instance_name>dev103592</instance_name>
+        <name>sys_security_acl_role_44ca87802f3f5010fb4428a62799b6c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-07 07:50:53</sys_created_on><sys_id>44ca87802f3f5010fb4428a62799b6c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_509970_tuleap_configuration_delais.x_509970_tuleap.configuration_delais_user</sys_name><sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package><sys_policy/><sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope><sys_security_acl display_value="x_509970_tuleap_configuration_delais">37ba87802f3f5010fb4428a62799b6c1</sys_security_acl><sys_update_name>sys_security_acl_role_44ca87802f3f5010fb4428a62799b6c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-07 07:50:53</sys_updated_on><sys_user_role display_value="x_509970_tuleap.configuration_delais_user" name="x_509970_tuleap.configuration_delais_user">b7bacf402f3f5010fb4428a62799b60d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-90856206</payload_hash>
+        <record_name>x_509970_tuleap_configuration_delais.x_509970_tuleap.configuration_delais_user</record_name>
+        <reverted_from/>
+        <source>30520bf72f635010fb4428a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 07:50:53</sys_created_on>
+        <sys_id>8cca87802f3f5010fb4428a62799b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175020aa5580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 07:50:53</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c4ca8780383f50105393a62ada6715c6</update_guid>
+        <update_guid_history>c4ca8780383f50105393a62ada6715c6:-90856206</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_509970_tuleap_configuration_delais.x_509970_tuleap.configuration_delais_user">d75e03442f3f5010fb4428a62799b61b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-07 08:06:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>04924ba32d5641cc8f89fcd7e72301e4</sys_id>
+        <sys_metadata>44ca87802f3f5010fb4428a62799b6c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_509970_tuleap_configuration_delais.x_509970_tuleap.configuration_delais_user</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_parent display_value="">37ba87802f3f5010fb4428a62799b6c1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_scope_delete display_value="">08a78d68d919492e809709aca31eb184</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_44ca87802f3f5010fb4428a62799b6c4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_44ca87802f3f5010fb4428a62799b6c4">8cca87802f3f5010fb4428a62799b6c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-07 08:06:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

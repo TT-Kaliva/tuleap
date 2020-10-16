@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b248d35e2ff7d410fb4428a62799b6f6" sys_domain="global" table="x_509970_tuleap_tuleap" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-14 08:36:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b648175e2ff7d410fb4428a62799b607</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_509970_tuleap_tuleap" name="x_509970_tuleap_tuleap" sys_domain="global" view="58d596172f171010fb4428a62799b6a7">b248d35e2ff7d410fb4428a62799b6f6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_509970_tuleap_tuleap" sys_domain="global" view="58d596172f171010fb4428a62799b6a7">cb850f7b2f635010fb4428a62799b608</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-14 08:36:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-14 08:36:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b648175e2ff7d410fb4428a62799b608</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_509970_tuleap_tuleap" name="x_509970_tuleap_tuleap" sys_domain="global" view="58d596172f171010fb4428a62799b6a7">b248d35e2ff7d410fb4428a62799b6f6</sys_ui_form>
+            <sys_ui_section caption="Comments" display_value="Comments" name="x_509970_tuleap_tuleap" sys_domain="global" view="58d596172f171010fb4428a62799b6a7">fe48d35e2ff7d410fb4428a62799b6f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-14 08:36:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_509970_tuleap_tuleap</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-14 08:36:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b248d35e2ff7d410fb4428a62799b6f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_509970_tuleap_tuleap</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b248d35e2ff7d410fb4428a62799b6f6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-14 08:36:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">58d596172f171010fb4428a62799b6a7</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

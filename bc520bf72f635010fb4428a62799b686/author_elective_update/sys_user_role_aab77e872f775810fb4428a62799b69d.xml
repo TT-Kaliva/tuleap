@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_509970_tuleap.create</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>create</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-16 14:10:16</sys_created_on>
+        <sys_id>aab77e872f775810fb4428a62799b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_509970_tuleap.create</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_user_role_aab77e872f775810fb4428a62799b69d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-16 14:10:16</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tuleap">bc520bf72f635010fb4428a62799b686</application>
+        <file_path/>
+        <instance_id>e0b10cb5db7418105749cac5059619dd</instance_id>
+        <instance_name>dev103592</instance_name>
+        <name>sys_user_role_aab77e872f775810fb4428a62799b69d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_509970_tuleap.create</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>create</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-16 14:10:16</sys_created_on><sys_id>aab77e872f775810fb4428a62799b69d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_509970_tuleap.create</sys_name><sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package><sys_policy/><sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope><sys_update_name>sys_user_role_aab77e872f775810fb4428a62799b69d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-16 14:10:16</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1458653028</payload_hash>
+        <record_name>x_509970_tuleap.create</record_name>
+        <reverted_from/>
+        <source>30520bf72f635010fb4428a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-16 14:10:16</sys_created_on>
+        <sys_id>c1e7f28b2f775810fb4428a62799b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17531bf37b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-16 14:10:16</sys_updated_on>
+        <type>Role</type>
+        <update_guid>0de7f28bd0775810f8016f8fa20fed9c</update_guid>
+        <update_guid_history>0de7f28bd0775810f8016f8fa20fed9c:1458653028</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_509970_tuleap.create">22f7368b2f775810fb4428a62799b69e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-16 14:10:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>39cd1bf5cfb64bd694ae230d61a37c71</sys_id>
+        <sys_metadata>aab77e872f775810fb4428a62799b69d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_509970_tuleap.create</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_scope_delete display_value="">08a78d68d919492e809709aca31eb184</sys_scope_delete>
+        <sys_update_name>sys_user_role_aab77e872f775810fb4428a62799b69d</sys_update_name>
+        <sys_update_version display_value="sys_user_role_aab77e872f775810fb4428a62799b69d">c1e7f28b2f775810fb4428a62799b69d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-16 14:10:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

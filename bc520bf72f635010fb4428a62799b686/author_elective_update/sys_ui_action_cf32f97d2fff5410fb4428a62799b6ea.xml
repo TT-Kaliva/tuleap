@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+ //var sysparm_table = g_form.getTableName(); 
+// var sysparm_sys_id = g_form.getUniqueValue().toString(); 
+ //var instanceName = "https://" + location.hostname + "/";
+ // var url = instanceName + 'x/533155/workspace/+sysparm_table' + '.do?PDF&sys_id=' + sysparm_sys_id;
+// g_navigation.openPopup(url);
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Export to PDF</name>
+        <onclick>exportPDF()</onclick>
+        <order>100</order>
+        <script><![CDATA[function exportPDF() { 
+ var sysparm_table = g_form.getTableName(); 
+ var sysparm_sys_id = g_form.getUniqueValue().toString(); 
+ var instanceName='https://dev103592.service-now.com/';
+  var url = instanceName + 'x/533155/workspace/+sysparm_table' + '.do?PDF&sys_id=' + sysparm_sys_id;
+ g_navigation.openPopup(url);
+} ]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 11:55:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf32f97d2fff5410fb4428a62799b6ea</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Export to PDF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_ui_action_cf32f97d2fff5410fb4428a62799b6ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 09:38:43</sys_updated_on>
+        <table>x_509970_tuleap_tuleap</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tuleap">bc520bf72f635010fb4428a62799b686</application>
+        <file_path/>
+        <instance_id>e0b10cb5db7418105749cac5059619dd</instance_id>
+        <instance_name>dev103592</instance_name>
+        <name>sys_ui_action_cf32f97d2fff5410fb4428a62799b6ea</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+ //var sysparm_table = g_form.getTableName(); 
+// var sysparm_sys_id = g_form.getUniqueValue().toString(); 
+ //var instanceName = "https://" + location.hostname + "/";
+ // var url = instanceName + 'x/533155/workspace/+sysparm_table' + '.do?PDF&amp;sys_id=' + sysparm_sys_id;
+// g_navigation.openPopup(url);
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;true&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Export to PDF&lt;/name&gt;&lt;onclick&gt;exportPDF()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function exportPDF() { 
+ var sysparm_table = g_form.getTableName(); 
+ var sysparm_sys_id = g_form.getUniqueValue().toString(); 
+ var instanceName='https://dev103592.service-now.com/';
+  var url = instanceName + 'x/533155/workspace/+sysparm_table' + '.do?PDF&amp;sys_id=' + sysparm_sys_id;
+ g_navigation.openPopup(url);
+} ]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-12 11:55:58&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cf32f97d2fff5410fb4428a62799b6ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Export to PDF&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Tuleap" source="x_509970_tuleap"&gt;bc520bf72f635010fb4428a62799b686&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Tuleap"&gt;bc520bf72f635010fb4428a62799b686&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_cf32f97d2fff5410fb4428a62799b6ea&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-13 09:38:43&lt;/sys_updated_on&gt;&lt;table&gt;x_509970_tuleap_tuleap&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1858328078</payload_hash>
+        <record_name>Export to PDF</record_name>
+        <reverted_from/>
+        <source>30520bf72f635010fb4428a62799b689</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 09:38:43</sys_created_on>
+        <sys_id>4efc1a462ffb9410fb4428a62799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1752153858d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 09:38:43</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>86fc1a461efb9410a235cf4daaf021fc</update_guid>
+        <update_guid_history>86fc1a461efb9410a235cf4daaf021fc:1858328078,94a5f5fda3ff5410552a3d92ae4f1dcd:-1706724850,c315bdfd42ff541017c336617b4cdfaa:-396587739,716431fde6ff54105ad0f6fe86948bd6:1481249157,d6d3f9bd00ff54100c07344f06078833:-323289301,18d3bdbd3fff54107eaeed70573d844e:-1871193126,e3b3f9bdffff54103ecfd5dfec8f973e:-672622630,2e63b9bd20ff5410230389d8cb2d3ebd:56376061,f2c2fd7daeff541052e7b1a2dff7fc1a:-405018738</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-14 14:38:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>18e8b80337654676951ea23a1a63ee04</sys_id>
+        <sys_metadata>cf32f97d2fff5410fb4428a62799b6ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Export to PDF</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_parent display_value="Tuleap">0c23833b2f635010fb4428a62799b69b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_scope_delete display_value="">08a78d68d919492e809709aca31eb184</sys_scope_delete>
+        <sys_update_name>sys_ui_action_cf32f97d2fff5410fb4428a62799b6ea</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_cf32f97d2fff5410fb4428a62799b6ea">4efc1a462ffb9410fb4428a62799b6fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-14 14:38:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

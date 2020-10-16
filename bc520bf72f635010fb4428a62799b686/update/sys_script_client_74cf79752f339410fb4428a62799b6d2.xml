@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Conditions for choices</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+	// load the state
+    var state = g_form.getValue('state');
+	 var number = g_form.getValue('sys_created_by');
+    
+    if (state == '0') {
+        g_form.clearOptions('state');
+        g_form.addOption('state', '0', 'Nouveau');
+		if(number != null && number != '' && number != 0)
+			{
+        g_form.addOption('state', '1', 'Pris en charge');
+			}
+    }
+    if (state == '1') {
+        g_form.clearOptions('state');
+        g_form.addOption('state', '1', 'Pris en charge');
+        g_form.addOption('state', '2', 'Résolu');
+    }
+    if (state == '2') {
+        g_form.clearOptions('state');
+        g_form.addOption('state', '2', 'Résolu');
+        g_form.addOption('state', '3', 'Validé');
+        g_form.addOption('state', '4', 'Rejeté');
+    }
+	 if (state == '3') {
+        g_form.clearOptions('state');
+		     g_form.addOption('state', '3', 'Validé');
+       
+    }
+	 if (state == '4') {
+        g_form.clearOptions('state');
+		  g_form.addOption('state', '4', 'Rejeté');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-12 12:55:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>74cf79752f339410fb4428a62799b6d2</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Conditions for choices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_script_client_74cf79752f339410fb4428a62799b6d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-14 09:54:36</sys_updated_on>
+        <table>x_509970_tuleap_tuleap</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

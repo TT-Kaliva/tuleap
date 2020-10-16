@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_509970_tuleap.GetGroup</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetGroup</name>
+        <script><![CDATA[var GetGroup = Class.create();
+GetGroup.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+    // Define the getEmail function.  
+    // Create a GlideRecord for the User table.
+    // Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+    // Return the email address for the requested record
+    getGroupRecord: function() {
+        var group = new GlideRecord("sys_user_group");
+        group.get(this.getParameter('sysparm_groupName'));
+        return group.sys_id;
+    },
+    type: 'GetGroup'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-06 15:39:18</sys_created_on>
+        <sys_id>791b6b372fe35010fb4428a62799b6bf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>GetGroup</sys_name>
+        <sys_package display_value="Tuleap" source="x_509970_tuleap">bc520bf72f635010fb4428a62799b686</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Tuleap">bc520bf72f635010fb4428a62799b686</sys_scope>
+        <sys_update_name>sys_script_include_791b6b372fe35010fb4428a62799b6bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-06 16:05:24</sys_updated_on>
+    </sys_script_include>
+</record_update>
